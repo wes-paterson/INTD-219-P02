@@ -1,35 +1,32 @@
-<div class="red"></div>
-<h1 class="text">Some Text</h1>
+<!-- <body>
+  <h1>Create Textbox element using JavaScript</h1>
+  <input class="delayed" type="text">
+</body> -->
 
-<style>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title> Jumblr </title>
+</head>
 
-body{
-  height: 100vh;
-  width: 100vw;
-}
-.red{
-  background: red;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position: fixed;
-  left: 200px;
-  top: 20px;
-}
-.text{
-  font-family: monospace;
-}
+<body>
 
-</style>
-
-<script>
-
-var redBall = document.querySelector(".red");
-document.querySelector("body").addEventListener("mousemove", function(event){
-  var x = event.clientX;
-  var y = event.clientY;
-  redBall.style.left = x + "px"
-  redBall.style.top = y + "px"
-})
-
-</script>
+  <div class="form">
+    <div class="login">
+      <div class="login-header">
+        <header>
+          <h1>Jumblr</h1>
+        </header>
+        <p>The social media site that's really annoying to log in to.</p>
+        <h3>Log in or sign up:</h3>
+      </div>
+    </div>
+    <form class="login-form">
+      <input class="delayed" type="text" placeholder="username" />
+      <input class="delayed" type="password" placeholder="password" />
+      <button>log in</button>
+      <h2 class="message">First time here? <a href="#">Sign up!</a></h2>
+    </form>
+  </div>
+  </div>
+  </div>
+</body>
