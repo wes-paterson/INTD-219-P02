@@ -1,0 +1,84 @@
+header .header {
+  background-color: #fff;
+  height: 100px;
+  text-align: center;
+}
+
+header a img {
+  width: 150px;
+  margin-top: 25px;
+}
+.login-page {
+  width: 400px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.login-page .form .login {
+  margin-top: -25px;
+  margin-bottom: 50px;
+}
+.form {
+  font-family: "Calibri", sans-serif;
+  position: relative;
+  z-index: 1;
+  background: #219ebc;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  border-radius: 6px;
+  text-align: center;
+
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5), 0 7px 7px 0 rgba(0, 0, 0, 0.25);
+}
+.form input {
+  font-family: "Calibri", sans-serif;
+  outline: 0;
+  background: #fdf0d5;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Calibri", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #023047;
+
+  width: 100%;
+  border: 0;
+  border-radius: 22px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #ffe45e;
+}
+.form .message a {
+  color: #ffbc42;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #457b9d;
+  background-image: linear-gradient(225deg, #8ecae6, #023047);
+  font-family: "Calibri", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
